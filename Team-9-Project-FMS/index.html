@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>repl.it</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+  
+    <header role = "heading">
+      <h1>FMS Drills</h1>
+    </header>
+    <section role="region" class ="landing-section">
+      <h2>Welcome to Fine Motor Skills Training.</h2>
+      <p>This application contains 3 exercises that will help tune fine motor skills for patients who have suffered a stroke. Each exercise provides feedback to let you know how you are doing, and certain exercises are randomized every time you begin the program, to provide an extra challenge, and some versatility. We hope you find this useful.</p>
+      <h2>Let's get started!</h2>
+    </section>
+    <section role="region" class="exercise-1">
+      <h2>Maze Game</h2>
+      <p><span>Type of Exercise</span>: Follow pattern<br>
+      <span>Description</span>: This exercise is a maze with a dot at the starting point, the user will use the stylus to get the dot to the end of the maze. The goal is to not touch the walls of the maze while tracing through. Mazes are randomly generated each playthrough.<br> 
+      <span>Screen</span>: Shows the instructions and maze.<br>
+      <span>User</span>: Uses stylus to drag dot through the maze.<br>
+      <span>System Provides</span>:
+      Positive feedback if the user completes the maze.
+      Negative feedback if the user touches a wall.</p>
+    </section>
+    <div class="button-container">
+      <button id="maze-game-next-button">Next Exercise</button>
+    </div>
+  <script src="./jquery/jquery.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>  
+  <script src="./maze_game.js/maze-game.js"></script>
+  <script src="./maze_game.js/cell.js"></script>  
+	</body>
+</html>

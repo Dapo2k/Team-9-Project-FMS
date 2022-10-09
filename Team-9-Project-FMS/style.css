@@ -1,0 +1,39 @@
+main {
+  text-align: center;
+}
+canvas { 
+  position: relative;
+  bottom: 225px; 
+}
+.exercise-1 > p {
+  position: relative;
+  top: 700px;
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: left;
+}
+.exercise-1 {
+  text-align: center;
+}
+header {
+  text-align: center;
+}
+.landing-section {
+  max-width: 75%;
+  margin: 0 auto;
+}
+.landing-section > h2 {
+  text-align: center;
+}
+span {
+  font-weight: bold;
+}
+.button-container {
+  position: relative;
+  top: 800px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#new-line {
+  top: 1000px;
+}
